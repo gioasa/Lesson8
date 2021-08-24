@@ -50,6 +50,11 @@
     margin-top: 200px;
 }
 
+.wave-box:hover {
+    background-color: purple;
+
+}
+
 .hand-text {
     margin-left: 25px;
     font-size: 23px;
@@ -108,34 +113,38 @@
 }
 
 .block:nth-child(1) {
-    background-color: #FBBA77;
+    background: linear-gradient(#FBBA77, #DFA871);
     margin-bottom: 60px;
-
 }
 
 .block:nth-child(2) {
-    background-color: #41EAE3;
+    background: linear-gradient(#40E7E1, #2397B9);
     
 }
 
 .block:nth-child(3) {
-    background-color: #69529F;
+    background: linear-gradient(#69529F, #473966);
     
 }
 
 .block:nth-child(4) {
-    background-color: #4386D2;
+    background: linear-gradient(#3F83D1, #0962C5);
     
 }
 
 .block:nth-child(5) {
-    background-color: #A5A2F6;
+    background: linear-gradient(#A29FF5, #564FD6);
     
 }
 
 .block:nth-child(6) {
-    background-color: #FF8088;
-    
+    background: linear-gradient(#FA7D84, #984141);
+}
+
+.block:hover {
+    border: 1px solid;
+    box-shadow: 4px 8px 10px #888888;
+    padding: 10px;
 }
 
 .image {
@@ -179,6 +188,6 @@
 
 .read:hover {
     background-color: #FFFFFF;
-    color: black;
+    color: #4B647E;
 }
 
